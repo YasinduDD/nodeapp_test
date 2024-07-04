@@ -17,6 +17,7 @@ spec:
       containers:
       - name: nodeserver
         image: yasindumit/nodeapp:latest
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
         
